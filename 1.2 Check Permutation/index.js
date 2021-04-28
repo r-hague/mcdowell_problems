@@ -1,7 +1,9 @@
 function checkPerm(a, b) {
+    // return false if different lengths
     if (a.length != b.length) {
       return false;
     } else {
+    // Splits strings into arrays (1 char -> 1 elem), then sort arrays alphabetically. If sorted arrays match then permutation = true
       aSortedArr = a.split("").sort();
       bSortedArr = b.split("").sort();
       for (let i = 0; i < aSortedArr.length; i++){

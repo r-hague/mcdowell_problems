@@ -1,0 +1,15 @@
+{
+  "name": "is-unique",
+  "version": "1.0.0",
+  "description": "problem 1.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  }
+}
